@@ -1,0 +1,4 @@
+Invoking command in '/home/host/ros_ws/src/build/tutoria_1_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --build /home/host/ros_ws/src/build/tutoria_1_set -- -j16 -l16
+Invoked command in '/home/host/ros_ws/src/build/tutoria_1_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --build /home/host/ros_ws/src/build/tutoria_1_set -- -j16 -l16
+Invoking command in '/home/host/ros_ws/src/build/tutoria_1_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --install /home/host/ros_ws/src/build/tutoria_1_set
+Invoked command in '/home/host/ros_ws/src/build/tutoria_1_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --install /home/host/ros_ws/src/build/tutoria_1_set

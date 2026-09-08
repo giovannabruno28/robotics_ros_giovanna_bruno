@@ -1,0 +1,63 @@
+[0.006s] Invoking command in '/home/host/ros_ws/src/build/tutoria_1_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake /home/host/ros_ws/src/tutoria_1_set -DCMAKE_INSTALL_PREFIX=/home/host/ros_ws/src/install/tutoria_1_set
+[0.042s] -- The C compiler identification is GNU 13.3.0
+[0.075s] -- The CXX compiler identification is GNU 13.3.0
+[0.086s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.214s] -- Detecting CXX compiler ABI info
+[0.305s] -- Detecting CXX compiler ABI info - done
+[0.310s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.310s] -- Detecting CXX compile features
+[0.311s] -- Detecting CXX compile features - done
+[0.313s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.404s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.478s] -- Found rclcpp: 28.1.21 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.510s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.520s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.531s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.597s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.675s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.697s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.762s] -- Found std_msgs: 5.3.8 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.771s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.837s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.837s] -- Configured cppcheck include dirs: 
+[0.837s] -- Configured cppcheck exclude dirs and/or files: 
+[0.838s] -- Added test 'lint_cmake' to check CMake code style
+[0.838s] -- Added test 'uncrustify' to check C / C++ code style
+[0.838s] -- Configured uncrustify additional arguments: 
+[0.838s] -- Added test 'xmllint' to check XML markup files
+[0.839s] -- Configuring done (0.8s)
+[0.845s] -- Generating done (0.0s)
+[0.847s] -- Build files have been written to: /home/host/ros_ws/src/build/tutoria_1_set
+[0.852s] Invoked command in '/home/host/ros_ws/src/build/tutoria_1_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake /home/host/ros_ws/src/tutoria_1_set -DCMAKE_INSTALL_PREFIX=/home/host/ros_ws/src/install/tutoria_1_set
+[0.853s] Invoking command in '/home/host/ros_ws/src/build/tutoria_1_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --build /home/host/ros_ws/src/build/tutoria_1_set -- -j16 -l16
+[0.885s] [ 50%] [32mBuilding CXX object CMakeFiles/node_1.dir/src/node_1.cpp.o[0m
+[2.301s] [100%] [32m[1mLinking CXX executable node_1[0m
+[2.425s] [100%] Built target node_1
+[2.434s] Invoked command in '/home/host/ros_ws/src/build/tutoria_1_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --build /home/host/ros_ws/src/build/tutoria_1_set -- -j16 -l16
+[2.441s] Invoking command in '/home/host/ros_ws/src/build/tutoria_1_set': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --install /home/host/ros_ws/src/build/tutoria_1_set
+[2.449s] -- Install configuration: ""
+[2.449s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/lib/tutoria_1_set/node_1
+[2.449s] -- Set non-toolchain portion of runtime path of "/home/host/ros_ws/src/install/tutoria_1_set/lib/tutoria_1_set/node_1" to ""
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/ament_index/resource_index/package_run_dependencies/tutoria_1_set
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/ament_index/resource_index/parent_prefix_path/tutoria_1_set
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/environment/ament_prefix_path.sh
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/environment/ament_prefix_path.dsv
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/environment/path.sh
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/environment/path.dsv
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/local_setup.bash
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/local_setup.sh
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/local_setup.zsh
+[2.450s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/local_setup.dsv
+[2.451s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/package.dsv
+[2.451s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/ament_index/resource_index/packages/tutoria_1_set
+[2.451s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/cmake/tutoria_1_setConfig.cmake
+[2.451s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/cmake/tutoria_1_setConfig-version.cmake
+[2.451s] -- Installing: /home/host/ros_ws/src/install/tutoria_1_set/share/tutoria_1_set/package.xml
+[2.452s] Invoked command in '/home/host/ros_ws/src/build/tutoria_1_set' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy PS1=(ROS_ID=$ROS_DOMAIN_ID) \u@\h:\w$ /usr/bin/cmake --install /home/host/ros_ws/src/build/tutoria_1_set
