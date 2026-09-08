@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>Projeto_1-Publisher_e_Subscriber</name>
+  <name>projeto_1_publisher_subscriber</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
   <maintainer email="host@todo.todo">host</maintainer>
